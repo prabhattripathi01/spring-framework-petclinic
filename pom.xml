@@ -647,5 +647,16 @@
             </build>
         </profile>
    </profiles>
+<distributionManagement>
+    <repository>
+      <id>nexus-repo</id>
+      <url>http://3.80.113.41:8081/repository/spring-petclinic/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus-repo</id>
+      <url>http://3.80.113.41:8081/repository/maven-snapshots//</url>
+    </snapshotRepository>
+  </distributionManagement> 
+
 
 </project>
